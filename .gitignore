@@ -1,0 +1,21 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
+
+# Ignore compiled Solidity contracts (if any)
+*.abi
+*.bin
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore temporary or log files
+*.log
+*.tmp
+
+# Ignore the contract deployment address
+contract_address.json
